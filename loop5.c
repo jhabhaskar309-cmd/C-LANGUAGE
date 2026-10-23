@@ -4,7 +4,7 @@ int main(){
       printf("%f \n", i);
     }
 
-    for(char ch='a'; ch<='z'; ch++) {
+    for(char ch='a' ; ch<='z'; ch++) {
         printf("%c \n", ch);
     }
     return 0;
