@@ -8,15 +8,15 @@ int main(){
     //i-- (post decrement)
 
 
-int i=1;
-//printf("%d \n", i++); // use then increase
-//printf("%d \n", i);
+int i=10;
+//printf("post increment %d \n", i++); // use then increase
+printf("pre increment %d \n",++i);
 
 //printf("%d\n", ++i);
 //printf("%d", i);
 
-printf("%d \n", --i);
-printf("%d \n", i);
+//printf("%d \n", --i);
+ //printf("%d \n", i);
 
 //printf("%d \n", i--);
 //printf("%d \n", i);
