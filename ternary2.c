@@ -13,7 +13,7 @@ int main(){
     //     printf("wrong marks");
     // }
 
-    marks <=30 ? printf("fail") : printf ("pass");
+marks <=30 ? printf("fail") : printf ("pass");
     return 0;
 
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(){
+    // * -> asterisk
     // * -> value of address
     // & -> address of variable
     int age = 22;
