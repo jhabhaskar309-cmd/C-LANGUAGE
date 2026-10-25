@@ -1,11 +1,16 @@
-// for(initialisation; condition; updation) {
-
-
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    for(int i=1; i<=1000; i = i+1) {
-        printf("hello world ");
-    }
-    return 0;
+    int n;
+    do {
+        printf("enter a number");
+        scanf("%d",&n);
+        printf("%d \n", n);
 
+        if( n % 2 != 0){
+            break;  //exit loop if odd
+        }
+     } while(1);  //repeat until odd number is entered
+        printf("thank you");
+    
+    return 0;
 }
