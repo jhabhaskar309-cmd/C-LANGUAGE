@@ -8,7 +8,7 @@ struct address {
     char state[100];
 };
 
-void printadd(struct address add);
+int printadd(struct address add);
 
 int main(){
     struct address adds[5];
@@ -52,6 +52,6 @@ int main(){
     return 0;
 }
 
-void printadd(struct address add) {
+int printadd(struct address add) {
     printf("address is : %d, %d, %s, %s\n", add.houseNo, add.block, add.city, add.state);
 }
