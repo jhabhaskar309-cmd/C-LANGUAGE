@@ -21,5 +21,8 @@ int main(){
 //   ptr = (*int) calloc(5,sizeof(int));
 
 
-//3. free()
+//3. free() - we use it free memory that is allocated using malloc & calloc
+//   free(ptr);
+
+
 //4. realloc() - re allocation
