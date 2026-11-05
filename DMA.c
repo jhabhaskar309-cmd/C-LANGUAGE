@@ -25,4 +25,5 @@ int main(){
 //   free(ptr);
 
 
-//4. realloc() - re allocation
+//4. realloc() - re allocation - it (increase or decrease) memory using the same pointer & size.
+//  ptr = realloc(ptr,newsize);
