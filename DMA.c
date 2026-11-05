@@ -17,5 +17,9 @@ int main(){
 
 
 //2. calloc() - continuous allocation
+//              intializes with 0
+//   ptr = (*int) calloc(5,sizeof(int));
+
+
 //3. free()
 //4. realloc() - re allocation
