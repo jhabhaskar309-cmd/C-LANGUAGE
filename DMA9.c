@@ -20,7 +20,9 @@ int main(){
     ptr[3] = 8;
     ptr[4] = 10;
     ptr[5] = 12;
-
+    for(int i=0; i<6; i++){
+        printf("%d\n", ptr[i]);
+    }
     return 0;
 
 }
