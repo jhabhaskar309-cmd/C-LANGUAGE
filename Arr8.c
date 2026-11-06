@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <stdio.h>
 int countodd(int arr[],int n);
 
@@ -18,24 +17,3 @@ int countodd(int arr[],int n){
     }
     return count;
 }
-=======
-#include <stdio.h>
-int countodd(int arr[],int n);
-
-int main(){
-    int arr[] = {1,2,3,4,5,6};
-    printf("%d",countodd(arr,6));
-    return 0;
-}
-
-int countodd(int arr[],int n){
-    int count = 0;
-    for(int i=0; i<n; i++){
-        if(arr[i] %2 != 0){  //odd
-            count++;
-        }
-        
-    }
-    return count;
-}
->>>>>>> 87e00ee52159498057f87b0ab6b0b4f4addda950
